@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Página Inicial */
+
+body {
+    background-image: linear-gradient(to right, #0652a3cb, #d30124be);
+}
+
+main {
+    background-color: white;
+    width: 85vw;
+    height: 92vh;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
+}
+
+main > img#logo {
+    display: block;
+    text-align: left;
+    padding: 15px 10px;
+    width: 250px;
+}
+
+main > div.links {
+    padding: 15px;
+}
+
+main > div.links > a > img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+}
+
+footer > p {
+    padding: 15px;
+    text-align: center;
+}
+
+footer > p > a {
+    color: black;
+}
+ 
+/* História */
+
+main > h1, h2 {
+    padding: 15px;
+    color: rgba(172, 3, 3, 0.678);
+}
+
+main > p {
+    padding: 10px 15px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+main > img.cena {
+    margin: 15px;
+    border: 1px solid black;
+}
+
+section {
+    display: block;
+}
+
+section > iframe {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+main > div#voltar {
+    display: inline-block;
+    width: 100%;
+    margin: 15px;
+}
+
+main > div#voltar > a.topo > img {
+    width: 40px;
+    margin-left: 90px;
+}
+
