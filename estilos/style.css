@@ -14,8 +14,8 @@ body {
 
 main {
     background-color: white;
-    width: 85vw;
-    height: 92vh;
+    width: 84vw;
+    height: auto;
     display: block;
     text-align: center;
     margin: auto;
@@ -27,12 +27,12 @@ main {
 main > img#logo {
     display: block;
     text-align: left;
-    padding: 15px 10px;
+    padding: 20px 10px 30px 10px;
     width: 250px;
 }
 
 main > div.links {
-    padding: 15px;
+    padding-bottom: 30px;
 }
 
 main > div.links > a > img {
@@ -51,9 +51,16 @@ footer > p > a {
  
 /* História */
 
-main > h1, h2 {
+main > h1 {
     padding: 15px;
     color: rgba(172, 3, 3, 0.678);
+    text-shadow: 1px 1px 0px black;
+}
+
+main > h2 {
+    margin: 15px 10px;
+    color: #0652a3cb;
+    text-shadow: 1px 1px 0px black;
 }
 
 main > p {
@@ -85,5 +92,26 @@ main > div#voltar {
 main > div#voltar > a.topo > img {
     width: 40px;
     margin-left: 90px;
+}
+
+main > div#voltar > a.voltar {
+    text-decoration: none;
+    color: black;
+}
+
+footer > p > a:hover {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* Sete */
+
+main > img.sete {
+    width: 300px;
+    height: 169px;
+    border: 1px solid black;
+    margin-bottom: 15px;
 }
 
