@@ -14,13 +14,12 @@ body {
 
 main {
     background-color: white;
-    width: 90vw;
-    height: auto;
-    display: block;
     text-align: center;
+    width: 90vw;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
+    padding-bottom: 30px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
 }
 
@@ -32,13 +31,14 @@ main > img#logo {
 }
 
 main > div.links {
-    padding-bottom: 30px;
+    display: block;
 }
 
-main > div.links > a > img {
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-    width: 350px;
+
+main > div.links > a > picture > img {
+    border-radius: 10px;
+    margin: 30px 25px 0px 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
 }
 
 footer > p {
@@ -85,19 +85,14 @@ section > iframe {
 }
 
 main > div#voltar {
-    display: inline-block;
-    width: 100%;
-    margin: 15px;
-}
-
-main > div#voltar > a.topo > img {
-    width: 40px;
-    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 main > div#voltar > a.voltar {
-    text-decoration: none;
-    color: black;
+    padding-top: 15px;
+    color: red;
 }
 
 footer > p > a:hover {

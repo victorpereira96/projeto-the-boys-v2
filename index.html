@@ -6,18 +6,39 @@
     <title>The Boys</title>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
         <img src="imagens/the-boys-logo300.png" alt="Logo The Boys" id="logo">
+
         <div class="links">
-            <a href="historia.html"><img src="imagens/logotheboys300-pq.png" alt="História"></a>
-        </div>
-        <div class="links">
-            <a href="sete.html"><img src="imagens/sete300-pq.png" alt="Os sete"></a>
-        </div>
-        <div class="links">
-            <a href="the-boys.html"><img src="imagens/theboys300-pq.png" alt="Os garotos"></a>
+            <a href="historia.html">
+                <picture>                   
+                    <source media="(max-width: 768px)" srcset="imagens/logotheboys300-pq.png">
+                    <source media="(min-width: 768px) and (max-width: 992px)" srcset="imagens/logotheboys500.png">
+                    <source media="(min-width: 992px) and (max-width: 1200px)" srcset="imagens/logotheboys-800.jpg">
+                    <img src="imagens/logotheboys-1000.jpg" alt="">
+                </picture>
+            </a>
+    
+            <a href="sete.html">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="imagens/sete300-pq.png">
+                    <source media="(min-width: 768px) and (max-width: 992px)" srcset="imagens/sete500.png">
+                    <source media="(min-width: 992px) and (max-width: 1200px)" srcset="imagens/sete800.jpg">
+                    <img src="imagens/sete1000.jpg" alt="Sete">
+                </picture>
+            </a>
+           
+            <a href="the-boys.html">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="imagens/theboys300-pq.png">
+                    <source media="(min-width: 768px) and (max-width: 992px)" srcset="imagens/theboys500.png">
+                    <source media="(min-width: 992px) and (max-width: 1200px)" srcset="imagens/the-boys800.jpg">
+                    <img src="imagens/the-boys1000.jpg" alt="Os garotos">
+                </picture>
+            </a>
         </div>
     </main>
     <footer>
