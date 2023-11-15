@@ -104,10 +104,15 @@ footer > p > a:hover {
 
 /* Sete */
 
-main > img.sete {
+main > div.luz > img.sete {
     width: 300px;
     height: 169px;
     border: 1px solid black;
     margin-bottom: 15px;
+}
+
+main > div.luz > p {
+    text-align: justify;
+    padding: 15px;
 }
 

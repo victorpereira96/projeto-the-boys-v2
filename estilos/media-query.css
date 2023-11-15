@@ -1,5 +1,75 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    main {
+        width: 700px;
+    }
+
+    main > img.sete {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main {
+        width: 900px;
+    }
+
+    main > h1 {
+        font-size: 3em;
+    }
+
+    main > h2 {
+        font-size: 1.8em;
+    }
+
+    main > div.luz {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    main > div.luz > img.sete {
+        width: 400px;
+        height: 250px;
+    }
+
+    main > div.luz > p {
+        padding: 0px 15px;
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1150px;
+    }
+
+    main > h1 {
+        font-size: 4em;
+    }
+
+    main > h2 {
+        font-size: 2.3em;
+    }
+
+    main > div.luz > img.sete {
+        width: 100%;
+        height: 250px;
+    }
+
+    main > div.luz > p {
+        padding: 0px 15px;
+        font-size: 1.5em;
+    }
+
+    main > div.luz {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        text-align: justify;
+    }
 }
